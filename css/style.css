@@ -61,4 +61,24 @@ h1{
 }
 /* /paragraph and list */
 
+/* table and paragraph */
+table{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #2ba3e3;
+  margin: 0px;
+  
+}
+
+.softblue{
+  background-color: #b1e5f3;
+}
+
+
+/* /table and paragraph */
+
 /* /Main */
