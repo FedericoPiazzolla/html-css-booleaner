@@ -9,7 +9,7 @@ body{
   height: 120px;
   background-color:rgba(78, 160, 255, 1);
   background-image: url(../img/pattern.png);
-  background-size: 23%;
+  background-size: 36%;
   background-repeat: repeat;
 }
 
@@ -44,11 +44,15 @@ h1{
 }
 
 .date{
-  margin: 0px;
+  margin-top: 0px;
   color: #989898;
 }
 /* /section title and reference */
 
-
+/* Imagine and comment */
+.photo-descript{
+  font-size: 12px;
+}
+/* /imagine and comment */
 
 /* /Main */
