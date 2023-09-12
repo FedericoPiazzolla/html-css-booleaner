@@ -10,55 +10,54 @@
   <body>
     <!-- header -->
     <header>
-      <!-- sezione iniziale con logo -->
-      <section>
-        <div class="header-logo">
-          <img src="img/logo.svg" class="logo"  alt="Logo Booleaner">
-        </div>
-      </section>
-      <!-- /sezione iniziale con logo -->
+      <img src="img/logo.svg" class="logo"  alt="Logo Booleaner">
     </header>
     <!-- /header -->  
     
     <!-- Main -->
     <main>
       <!-- title and refernces -->
-      <section>
-        <!-- titolo -->
+      <div class="main-title">
         <h1>
           Internet deve essere al servizio del "bene pubblico": il  manifesto di Tim Berners-Lee
         </h1>
-        <!-- /titolo -->
-
-        <div class="references">Scritto da <span id="the-Booleaner">The Booleaner</span></div>
-        <div class="date">il 10/10/2020</div>
-
-      </section>
+        <h4 class="author">Scritto da <span class="author-name"">The Booleaner</span></h4>
+        <p class="date">il 10/10/2020</p>
+      </div>
       <!-- /title and refernces -->
 
       <!-- Imagine and comment -->
-      <section>
-        <img src="img/tim-1.jpg" alt="tim Berners-Lee">
-        <img src="img/tim-2.jpg" alt="tim Berners-Lee">
-        <div class="photo-descript">1st Photo: Jhon S, and James L. Knight foundation by, by Scott henrichsen</div>
-        <div class="photo-descript">2nd Photo: Wikimedia, by Paul Clarke</div>
-
-
-      </section>
+      <div class="photo-gallery">
+        <div>
+          <img src="img/tim-1.jpg" alt="tim Berners-Lee">
+          <img src="img/tim-2.jpg" alt="tim Berners-Lee">
+        </div>
+        <div class="photo-caption">
+          1st Photo: Jhon S, and James L. Knight foundation by, by Scott henrichsen <br>
+          2nd Photo: Wikimedia, by Paul Clarke
+        </div>
+      </div>
       <!-- Imagine and comment -->
 
       <!-- paragraph and list -->
-      <section>
+      <div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit molestiae sapiente veritatis voluptate, sequi incidunt libero possimus explicabo laboriosam, <span class="underline">esse iusto enim perferendis quae sint?</span> Necessitatibus obcaecati iusto enim. duis autem molestiae sapiente veritatis voluptate, sequi incidunt libero possimus explicabo laboriosam, esse iusto enim perferendis quae sint? Necessitatibus obcaecati iusto enim. duis autem
         </p>
+
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, sapiente laudantium assumenda eaque nostrum </li>
-          <li>labore ducimus repellendus quidem reprehenderit quas sed non laboriosam, dicta commodi! Deleniti maiores ratione dolores exercitationem!</li>
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, tempore quaerat unde exercitationem fugiat vero ea soluta ad blanditiis minus ipsum perferendis, consequatur mollitia magnam assumenda modi fugit in autem.</li>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, sapiente laudantium assumenda eaque nostrum 
+
+          </li>
+          <li>
+            labore ducimus repellendus quidem reprehenderit quas sed non laboriosam, dicta commodi! Deleniti maiores ratione dolores exercitationem!
+          </li>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, tempore quaerat unde exercitationem fugiat vero ea soluta ad blanditiis minus ipsum perferendis, consequatur mollitia magnam assumenda modi fugit in autem.
+          </li>
         </ul>
-        
-      </section>
+      </div>
       <!-- /paragraph and list -->
 
       <!-- table  and paragraph-->
@@ -70,7 +69,7 @@
             <tr>
               <th>Lorem Ipsum Dolor</th>
               <th>Lorem Ipsum Dolor</th>
-              <th>Lorem Ipsum Dolor</th>
+              <th class="large-col">Lorem Ipsum Dolor</th>
             </tr>
             
           </thead>
@@ -82,7 +81,7 @@
               <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores consequuntur quaerat illum praesentium, iusto et dolorum aspernatur pariatur eius impedit tempora cum quibusdam possimus sapiente voluptate beatae est sed illo.</td>
             </tr>
 
-            <tr class="white">
+            <tr>
               <td>Lorem Ipsum Dolor</td>
               <td>Lorem Ipsum Dolor</td>
               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi cumque sed iusto, laborum laudantium? Totam, corrupti quos illo cum molestias veniam perspiciatis voluptas officiis blanditiis pariatur vitae. Animi, eaque!</td>
@@ -97,7 +96,9 @@
           </tbody>
         </table>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quas quis modi dicta ratione nulla laboriosam, minus expedita, natus alias doloremque nihil amet dolor fugit rem, soluta tenetur cumque! Minus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="underline">Assumenda quas quis modi dicta ratione nulla laboriosam</span>, minus expedita, natus alias doloremque nihil amet dolor fugit rem, soluta tenetur cumque! Minus</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quas quis modi dicta ratione nulla laboriosam, minus expedita, natus alias doloremque nihil amet dolor fugit rem, soluta tenetur cumque! Minus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="underline">Assumenda quas quis modi dicta ratione nulla laboriosam</span>, minus expedita, natus alias doloremque nihil amet dolor fugit rem, soluta tenetur cumque! Minus
+        </p>
 
       </section>
       <!-- table and paragraph-->
@@ -107,9 +108,16 @@
 
     <!-- footer -->
     <footer>
-      <h2>Potrebbero Interssarti</h2>
-      <div class="container-1">Lorem Ipsum Dolor</div>
-      <div class="container-2">Lorem Ipsum Dolor</div>
+      <h3 class="footer-title">Potrebbero Interssarti</h3>
+
+      <div class="other-article other-article-1">
+        <a href="">Lorem Ipsum Dolor</a>
+      </div>
+
+      <div class="other-article other-article-2">
+        <a href="">Lorem Ipsum Dolor</a>
+      </div>
+      
     </footer>
     <!-- /footer -->
 
